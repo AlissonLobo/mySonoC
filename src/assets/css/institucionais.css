@@ -1,0 +1,85 @@
+p{
+  margin-bottom: 0;
+}
+.vitabe-t1{
+  font-size: 35px;
+  color: #444;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.vitabe-t2 {
+  display: block;
+  color: #444;
+  font-size: 14px;
+}
+#breadcrumb{
+  margin-bottom: 20px;
+}
+.institucional-t1{
+  font-size: 14px;
+  font-weight: 600;
+  color: #828282;
+  line-height: 1.16;
+  padding: 10px 5px ;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.institucional-t1:hover i,
+.institucional-t1 i {
+  transition: 200ms;
+  color: #828282;
+  font-size: 20px;
+}
+p.institucionalText{
+  font-size: 14px;
+  color: #424242;
+  line-height: 1.57;
+}
+p.institucionalText:last-child{
+  margin-bottom: 0;
+}
+.containerTextImg{
+  display: flex;
+  align-items: center;
+}
+.containerTextImg-img{
+  flex: 0 0 auto;
+  margin-left: 30px;
+}
+.containerText,
+.containerTextImg{
+  margin-bottom: 50px;
+}
+.duvidasContainer-item{
+  border-bottom: 1px solid #dbdbdb;
+}
+.duvidasContainer-item-text.slideToggle-open p {
+  animation: animate 0.5s ease-in-out;
+}
+@keyframes animate {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 30px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+.container-item-text  a:hover,
+.container-item-text  a{
+  color: rgb(70, 146, 200);
+  font-weight: 700;
+}
+@media (max-width: 1023px) {
+  .containerTextImg{
+    flex-direction: column;
+  }
+  .containerTextImg-img{
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}

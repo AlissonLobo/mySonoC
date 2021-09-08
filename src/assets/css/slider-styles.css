@@ -1,0 +1,37 @@
+.tns-outer{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.tns-nav{
+  position: absolute;
+  bottom: -20px;
+  z-index: 3;
+}
+.tns-nav > button{
+  height: 10px;
+  width: 10px;
+  background-color: #fff;
+  border: 1px solid #707070;
+  border-radius: 100%;
+  margin: 0 4px;
+}
+.tns-nav > button.tns-nav-active,
+.tns-nav > button:hover{
+  background-color: #214861;
+  border-color: #214861;
+}
+.tns-controls > button {
+  font-family: 'material icons';
+  position: absolute;
+  top: 50%;
+  z-index:3;
+  font-size: 40px;
+  color: #214861;
+}
+.tns-controls > button[data-controls="prev"] {
+  left: -15px;
+}
+.tns-controls > button[data-controls="next"] {
+  right: -15px;
+}

@@ -1,0 +1,19 @@
+.skeleton div:not(.noColor):not(.skeleton){
+  background-color: #DDE8EE;
+  background-repeat: no-repeat;
+  background-position: -600%;
+  background-size: 80%;
+  background-image: linear-gradient(90deg, #dee9ee 0%, #d3e0e8 50%, #dee9ee 100%);
+}
+.skeleton div:not(.noColor):not(.noAnim):not(.escuro):not(.claro){
+  animation: loading infinite 1.5s;
+}
+.skeleton div.escuro{
+  background-color: #B0BEC5 !important;
+}
+.skeleton div.claro{
+  background-color: #F5F5F5 !important;
+}
+.skeleton div.noRadius{
+  border-radius: 0px;
+}
